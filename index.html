@@ -29,9 +29,9 @@
         }
       </script>
 </head>
-<body class="font"> 
+<body class="font "> 
      <!-- Header section -->
-      <header class="md:container mx-auto">
+      <header class="lg:px-20 mx-auto">
        <nav>
         <div class="navbar bg-base-100">
             <div class="flex-1">
@@ -70,17 +70,203 @@
               </ul>
             </div>
             <div class="">
-              <a class="btn btn-error bg-btn-primary ">Login</a>
+              <a class="btn btn-error text-white text-lg">Login</a>
             </div>
           </div>
        </nav>
+       <!-- Slider-carosel -->
+       <div class="carousel w-full lg:h-[550px]">
+        <!-- slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full ">
+           <div class="flex bg-red-50 lg:p-24 flex-col lg:flex-row p-16">
+           <!-- text content -->
+            <div class="space-y-7 flex-1">
+                <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                <p class="text-xl">Amet minim mollit non deserunt ullamco 
+                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                <button class="btn btn-error text-white text-lg">Purchase</button>
+
+            </div>
+            <!-- img content -->
+             <div class="flex-1">
+                <img
+            src="images/slider/bike1.png"
+            class="w-400px" />
+             </div>
+             </div>
+            
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+                <!-- slide 2-->
+                <div id="slide2" class="carousel-item relative w-full ">
+                    <div class="flex bg-red-50 lg:p-24 flex-col lg:flex-row p-16">
+                    <!-- text content -->
+                     <div class="space-y-7 flex-1">
+                         <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                         <p class="text-xl">Amet minim mollit non deserunt ullamco 
+                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                         <button class="btn btn-error text-white text-lg">Purchase</button>
+         
+                     </div>
+                     <!-- img content -->
+                      <div class="flex-1">
+                         <img
+                     src="images/slider/bike2.png"
+                     class="w-400px" />
+                      </div>
+                      </div>
+                     
+                   <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                     <a href="#slide1" class="btn btn-circle">❮</a>
+                     <a href="#slide3" class="btn btn-circle">❯</a>
+                   </div>
+                 </div>
+                         <!-- slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full ">
+            <div class="flex bg-red-50 lg:p-24 flex-col lg:flex-row p-16">
+            <!-- text content -->
+             <div class="space-y-7 flex-1">
+                 <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
+                 <p class="text-xl">Amet minim mollit non deserunt ullamco 
+                     est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                 <button class="btn btn-error text-white text-lg">Purchase</button>
+ 
+             </div>
+             <!-- img content -->
+              <div class="flex-1">
+                 <img
+             src="images/slider/bike3.png"
+             class="w-400px" />
+              </div>
+              </div>
+             
+           <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+             <a href="#slide2" class="btn btn-circle">❮</a>
+             <a href="#slide1" class="btn btn-circle">❯</a>
+           </div>
+         </div>
+        </div>
+      </div>
       </header>
 
 
 
 
       <!-- main section -->
-       <main>
+       <main class="lg:px-20 mx-auto">
+
+        <!-- latest bike -->
+         <section class="my-24 ">
+            <h1 class="text-5xl font-bold text-center mb-12">Leatest Bike</h1>
+            <!-- card 1 -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest1.png"
+                        alt="Ducati XDIAVEL S-73" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn btn-error text-white text-lg font-semibold">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest2.png"
+                        alt="Ducati XDIAVEL S-73" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn btn-error text-white text-lg font-semibold">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest3.png"
+                        alt="Ducati XDIAVEL S-73" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p class="text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions ">
+                        <button class="btn btn-error text-white text-lg font-semibold">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+
+             </div>
+
+         </section>
+
+
+         <!-- ratting section -->
+          <section>
+
+          </section>
+
+
+          <!-- ask section -->
+
+        <section class="space-y-5">
+            <h1 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-red-400">Questions</span></h1>
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img
+                    src="images/others/faq.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                  <div class="space-y-8 ">
+                    <!-- accoedion -->
+
+                    <div class="collapse collapse-arrow border border-blue-200 ">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">What are the most important things I should
+                            know about riding a bike?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-light">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                        <div class="collapse collapse-arrow border border-blue-200">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">What are the most important things I should
+                                know about riding a bike?</div>
+                            <div class="collapse-content">
+                              <p class="text-base font-light">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-200 ">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                            new one?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-light">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-light">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+
 
        </main>
 
